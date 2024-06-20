@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <title>Raffle</title>
+</head>
+
+<body>
+    <header class="header">
+
+        <img class="header_logo" src="img/logo.png" alt="">
+
+        <nav class="header_nav">
+            <a href="index.html">Inicio</a>
+            <a href="abaout.html">About</a>
+            <a href="contact.html">Contact</a>
+            <a href="information.html">Information</a>
+            <a href="benefitstips.html">Benefit&Tips</a>
+            <a href="#">Raffle</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <h2 class="titulop">
+            Raffle</h2>
+        <h3 class="titulose">
+            You can colaborate to hold an exhibition event and participate in a raffle to win an easel
+        </h3>
+
+        <div class="contenedorpf">
+
+            <div class="formita">
+                
+                <form action="/Sprint3/" method="get"></form>
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="first-name" placeholder="Your name" required>
+                    <br>
+                    <label for="lastname">Last name</label>
+                    <input type="text" id="lastname" name="last-name" placeholder="Your last name" required>
+                    <br>
+                    <label for="reunion-seleccionada">Choose meet or zoom</label>
+                    <select name="reunion" id="reunion-seleccionada">
+                        <option value="">--Select an option--</option>
+                        <option value="seleccion-zoom">Zoom</option>
+                        <option value="seleccion-meet">Meet</option>
+                    </select>
+                    <br>
+                    <label for="start">Choose date</label>
+                    <input type="date" id="start" name="trip-start" value="2024-07-22" min="2024-07-01" max="2018-12-31">
+                    <br>
+                    Payment Options
+                    <label for="Cash"><input type="radio" id="Cash" name="payment-options" value="Cash">Cash</label>
+                    <label for="DebitCard"><input type="radio" id="DebitCard" name="payment-options" value="DebitCard">Debit Card</label>
+                    <label for="CreditCard"><input type="radio" id="CreditCard" name="payment-options" value="CreditCard">Credit Card</label>
+                    <br>
+                    <label for="message">Message (Optional)</label>
+                    <textarea name="message" rows="10" cols="50">Write something here</textarea>
+                    <div class="pieform">
+                        <label for="terminos">
+                            <input type="checkbox" name="terms" id="terminos" value="term">
+                            I accept terms and conditions...
+                        </label>
+                        <button type="submit" class="botonsub">Enviar</button>
+                    </div>
+                
+
+            </div>
+
+            <div class="mapita">
+                <h3>Our location is located at:</h3>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d203133
+        .33398706524!2d-121.98090665060312!3d37.29612108501561!2m3!1f0!2f0!3f0!3m2
+        !1i1024!2i768!4f13.1!3m3!1m2!1s0x808fcae48af93ff5%3A0xb99d8c0aca9f717b!2sSa
+        n%20Jos%C3%A9%2C%20California%2C%20EE.%20UU.!5e0!3m2!1ses-419!2sar!4v1718782
+        055914!5m2!1ses-419!2sar" width="600px" height="450px" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div>
+            <h3>
+                Ceated by: Jhon Lyan Mendez Gutierrez
+            </h3>
+        </div>
+    </footer>
+
+</body>
+
+</html>
